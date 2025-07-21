@@ -1,0 +1,132 @@
+* {
+   margin: 0 ;
+   padding: 0 ;
+   box-sizing: border-box;
+   font-family: 'Montserrat', Arial, sans-serif;
+   letter-spacing: 0.02em;
+}
+
+.hero {
+   min-height: 100vh;
+   width: 100vw;
+   background: linear-gradient(135deg, #232526 0%, #414345 100%);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 0;
+}
+
+.hero h1 {
+   font-size: 2.5rem;
+   font-weight: 700;
+   color: #6a82fb;
+   margin-bottom: 5px;
+   letter-spacing: 0.04em;
+   text-align: center;
+}
+
+.hero h1 span {
+   color: #6a82fb;
+   font-weight: 800;
+   letter-spacing: 0.06em;
+}
+
+textarea {
+   width: 100%;
+   max-width: 480px;
+   min-width: 280px;
+   height: 180px;
+   background: #f7f7fa;
+   color: #232526;
+   font-size: 1.1rem;
+   border: 2px solid #6a82fb;
+   border-radius: 12px;
+   padding: 18px 16px;
+   margin-bottom: 18px;
+   resize: vertical;
+   transition: border-color 0.3s;
+   box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.08);
+}
+
+textarea:focus {
+   border-color: #29ffd8;
+   outline: none;
+}
+
+textarea::placeholder {
+   color: #b0b0b0;
+   font-size: 1rem;
+   opacity: 1;
+   letter-spacing: 0.02em;
+}
+
+.row {
+   width: 100%;
+   max-width: 480px;
+   display: flex;
+   align-items: center;
+   gap: 14px;
+   margin-bottom: 10px;
+}
+
+button {
+   background: linear-gradient(90deg, #6a82fb 0%, #29ffd8 100%);
+   color: #232526;
+   font-size: 1.1rem;
+   font-weight: 600;
+   padding: 12px 28px;
+   border-radius: 24px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.10);
+   display: flex;
+   align-items: center;
+   transition: background 0.2s, color 0.2s;
+}
+
+button:hover {
+   background: linear-gradient(90deg, #29ffd8 0%, #6a82fb 100%);
+   color: #fff;
+}
+
+button img {
+   width: 18px;
+   height: 18px;
+   margin-right: 8px;
+   vertical-align: middle;
+}
+
+select {
+   flex: 1;
+   color: #232526;
+   background: #e3e8f0;
+   height: 44px;
+   padding: 0 16px;
+   border-radius: 18px;
+   border: 2px solid #6a82fb;
+   font-size: 1rem;
+   outline: none;
+   transition: border-color 0.3s;
+}
+
+select:focus {
+   border-color: #29ffd8;
+}
+
+input[type="range"] {
+   width: 100%;
+   max-width: 220px;
+   accent-color: #6a82fb;
+   height: 6px;
+   border-radius: 4px;
+}
+
+label {
+   min-width: 60px;
+   font-size: 1rem;
+   color: #fff;
+   font-weight: 600;
+   text-align: left;
+}
