@@ -1,6 +1,6 @@
-# 🗣️ Text-To-Voice Converter
+# 🗣️ Narrato
 
-Welcome to the **Text-To-Voice Converter**!  
+Welcome to the **Narrato**!  
 This project transforms written text into natural-sounding speech, making content more accessible and interactive. Whether you're developing assistive technology, automating voice notifications, or just experimenting with speech synthesis, this tool provides a robust and easy-to-use solution.
 
 ---
